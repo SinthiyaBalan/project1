@@ -1,16 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,600;1,400&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     border: 0;
     box-sizing: border-box;
     list-style: none;
+    text-decoration: none;
 }
 
 body{
 
     height: 100vh;
     width: 100vw;
-    background-color: black;
+    /* background-color: black; */
+    background-image: url("https://media.istockphoto.com/id/1175987609/de/foto/reihe-leerer-roter-kinositze.jpg?s=612x612&w=0&k=20&c=eieNL176pyMzg_Wiw4Beb6NW4hQiNwrSdCPjnc1QJRY=");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
     
 }
 
@@ -25,19 +34,64 @@ nav{
     width: 100px;
     height: 90px;
     border-radius: 40px;
+    margin-top: 20px;
 }
 
 .signin_link {
 
     
     font-size: 23px;
-    font-size: 23px;
+    
     margin-top: 20px;
    
 }
 .a-tag{
     color:red;
     text-decoration: none;
+}
+
+.main-container{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    margin-top: 138px;
+}
+
+.sub-section{
+
+    margin-top: 20px;
+}
+
+.sub-section button{
+
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: none;
+  
+  padding: 15px 19px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+
+}
+
+footer{
+
+    text-align: center;
+    margin-top: 45px;
+    color: aliceblue;
+}
+
+footer a{
+    color: aliceblue;
 }
 
 
@@ -69,6 +123,24 @@ nav{
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+
+    /* home page */
+
+    body{
+      font-size: 1.5em;
+        
+    }
+
+    .main-container{
+        margin-top: 70px;
+    }
+
+    footer{
+
+        text-align: center;
+        margin-top: 78px;
+       
+    }
 
 }
 
