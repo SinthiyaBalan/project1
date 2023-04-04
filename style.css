@@ -89,11 +89,13 @@ footer{
 
     text-align: center;
     margin-top: 45px;
-    color: aliceblue;
+    color: #8c8c8c;
 }
 
 footer a{
-    color: aliceblue;
+    
+    color: #8c8c8c;
+    
 }
 
 .sign-up-wrapper{
@@ -114,6 +116,15 @@ footer a{
 
     height: 34px;
     width: 224px;
+    color: #8c8c8c;
+    font-size: 20px;
+    
+}
+.new-user p{
+    color: #8c8c8c;
+}
+.new-user a{
+    color: white;
 }
 
 
@@ -165,10 +176,10 @@ footer a{
     }
 
     /* sign up page */
-    
 
 
-}
+
+} 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
