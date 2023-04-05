@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,600;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+
+    height: 100vh;
+    width: 100vw;
+    background-color: #181818;
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.logo img{
+
+    width: 50px;
+    height: 50px;
+    border-radius: 40px;
+    margin-top: 10px;
+}
+
+.nav_link {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-right: 10px;
+   
+}
+.a-tag{
+    color:#fff;
+    text-decoration: none;
+    margin-left: 6px;
+}
+
+.section-wrapper{
+    /* height: 90%;
+    width: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px; 
+}
+
+.img-cards img{
+
+    height: 260px;
+    width: 220px;
+}
+
+
+.main-wrapper h2{
+    margin-left: 70px;
+}
+
+.video-container{
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 10px;
+    margin-top: 50px;
+    
+}
+
+iframe{
+    width: 220;
+    height: 160;
+}
+
+
+
+
+/* Media queries */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    /* movies page */
+
+    body{
+      font-size: 1em;
+        
+    }
+    .section-wrapper{
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 10px   ;
+    }
+
+    .img-cards img{
+
+        height: 260px;
+        width: 220px
+    }
+    .main-wrapper h2{
+        margin-left: 60px;
+    }
+    .a-tag{
+        padding: 20px;
+    }
+    .video-container{
+
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        margin-left: 10px;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
